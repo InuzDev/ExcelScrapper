@@ -177,7 +177,7 @@ public class App {
                 }
 
                 doc.close();
-                System.out.println("✅ Created: " + outFile.getPath());
+                System.out.println("Created: " + outFile.getPath());
             }
 
             System.out.println("\nAll Word documents have been created successfully in: " + folder.getAbsolutePath());
