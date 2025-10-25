@@ -1,4 +1,6 @@
 # Maven / Java
+# Ignore the entire .mvn folder EXCEPT the wrapper files
+.mvn/*
 target/
 *.class
 *.jar
@@ -13,7 +15,7 @@ target/
 *.ipr
 
 # Excel files
-.xlsx
+*.xlsx
 
 # Eclipse
 .project
