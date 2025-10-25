@@ -20,7 +20,7 @@ public class App {
         File folder = new File(outputDir);
         if (!folder.exists()) {
             folder.mkdirs();
-            System.out.println("📁 Created folder: " + folder.getAbsolutePath());
+            System.out.println("Created folder: " + folder.getAbsolutePath());
         }
 
         try (FileInputStream fis = new FileInputStream(excelPath);
