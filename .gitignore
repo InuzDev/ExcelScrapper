@@ -1,0 +1,37 @@
+# Maven / Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Output folder for Word docs
+OUTPUT-FOLDER/
+output/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
