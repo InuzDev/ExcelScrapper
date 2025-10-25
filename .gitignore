@@ -12,6 +12,9 @@ target/
 *.iws
 *.ipr
 
+# Excel files
+.xlsx
+
 # Eclipse
 .project
 .classpath
